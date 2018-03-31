@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+  }
+  body {
+     width: 97%;
+     height: 100%;
+  }
+
+  header {
+      margin: 0 auto;
+      background-color: cornflowerblue;
+      padding-left: 30px;
+      border: 3px solid black;
+      font-size: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 0px;
+      width: 100%;
+      
+  }
+  h1
+  {
+      float: center;
+  }
+  nav {
+      position: sticky; top: 0px;
+      float: right;
+      width: 100%;
+      font-size: 40;
+      padding-top: 0px;
+      margin-top: 0px;
+  }
+  nav ul {
+      padding: 2;
+      padding-top: 0;
+      margin-top: 0px;
+      float: center;
+      border-bottom: 2;
+      list-style-type: none;
+  }
+  nav li {
+      margin-top: 0px;
+      padding-top: 0px;
+      float: left;
+  }
+  nav li a {
+      height: 25px;
+      padding: 0px 20px 10px 20px;
+      margin-top: 0px;
+      vertical-align: middle;
+      clear: both;
+      color: black;
+      background-color: lavender;
+  }
+ 
+  a {
+      color: purple;
+  }
+  section {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      background-color: orange;
+  }
+  img
+  {
+      height: 200px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 50px;
+  }
+  article
+  {
+    clear: both;
+  }
+  section p
+  {
+      font-size: 30;
+  }
+  article p
+  {
+    display: block;
+    padding: 10px;
+    font-size: 25;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:red;
+      padding:2;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 100%;
+      background-color:black;
+      color:white;
+      clear: both;
+      display: block;
+  }

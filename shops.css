@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+  }
+  body {
+     width: 97%;
+     height: 100%;
+  }
+
+  header {
+      background-color: #EDFF90;
+      padding-left: 18px;
+      border: 10px solid #96B200;
+      font-size: 30px;
+      margin-bottom: 0px;
+      display: block;
+      width: 97%;
+      text-align: center;
+  }
+ 
+  nav {
+      float: left;
+      width: 97%;
+  }
+  
+  nav ul {
+      padding: 0px;
+      float: left;
+      list-style-type: none;
+  }
+  
+  nav li {
+      float: left;
+  }
+  
+  nav li a {
+      display: block;
+      height: 0px;
+      padding: 5px 5px 5px 5px;
+  }
+  
+  a {
+      color: #CC695F;
+  }
+  
+  h2 {
+    color:#B2645C;}
+  
+  section {
+      width: 80%;
+      display: block;
+      float: float;
+  }  
+
+  footer {
+      width: 790px;
+      clear: both;
+      display: block;
+  }
+  
+  img {
+    display: block;
+    max-width:250px;
+    max-height:150px;
+  }
